@@ -13,6 +13,7 @@ public class LoginTest extends BaseTest {
 	@Test
 	public void validLogin_TC01()
 	{
+		System.out.println("Hello");
 		String TCName = "validLogin_TC01";
 		logger = extent.createTest(TCName);
 		LoginPage lp = new LoginPage(driver,logger);
